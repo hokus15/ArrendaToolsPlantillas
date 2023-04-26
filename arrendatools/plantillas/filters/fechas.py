@@ -1,5 +1,5 @@
 import calendar
-from dateutil import parser
+from datetime import datetime
 from babel.dates import format_datetime, get_timezone
 
 
@@ -37,6 +37,6 @@ def formato_fecha(fecha_hora=None, formato='medium', tzinfo='Europe/Madrid', loc
     date = None
     time_zone = get_timezone(tzinfo)
     if isinstance(fecha_hora, str):
-        date = parser.parse(fecha_hora)
+        date = datetime.fromisoformat(fecha_hora)
 
     return format_datetime(date, formato, time_zone, locale)
