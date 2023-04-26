@@ -1,5 +1,5 @@
 import calendar
-from datetime import datetime
+from datetime import datetime, timedelta
 from babel.dates import format_datetime, get_timezone
 
 
@@ -40,3 +40,10 @@ def formato_fecha(fecha_hora=None, formato='medium', tzinfo='Europe/Madrid', loc
         date = datetime.fromisoformat(fecha_hora)
 
     return format_datetime(date, formato, time_zone, locale)
+
+
+def aplicar_timedelta(fecha, semanas=0, dias=0, horas=0, minutos=0, segundos=0):
+    fecha_obj = datetime.fromisoformat(fecha)
+    delta = timedelta(days=dias, hours=horas, minutes=minutos, seconds=segundos, weeks=semanas)
+    nueva_fecha = fecha_obj + delta
+    return nueva_fecha.isoformat()
