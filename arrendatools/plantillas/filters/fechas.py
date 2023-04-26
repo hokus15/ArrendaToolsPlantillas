@@ -26,10 +26,10 @@ def formato_fecha(fecha_hora=None, formato='medium', tzinfo='Europe/Madrid', loc
 
     Args:
 
-        fecha_hora (): fecha en formato ISO8601. Si no se pasa ninguna se usa la fecha y hora actual
-        formato (): uno de  “full”, “long”, “medium”, o “short”, o un patron datetime personalizado. "medium" por defecto.
-        tzinfo (): la zona horaria a aplicar para dar formato a la fecha-hora. "Europe/Madrid" por defecto.
-        locale (): identificador de locale. es_ES por defecto.
+        fecha_hora (str): fecha en formato ISO8601. Si no se pasa ninguna se usa la fecha y hora actual
+        formato (str): uno de  “full”, “long”, “medium”, o “short”, o un patron datetime personalizado. "medium" por defecto.
+        tzinfo (str): la zona horaria a aplicar para dar formato a la fecha-hora. "Europe/Madrid" por defecto.
+        locale (str): identificador de locale. es_ES por defecto.
 
     Returns:
         str: La fecha en texto con el formato indicado
