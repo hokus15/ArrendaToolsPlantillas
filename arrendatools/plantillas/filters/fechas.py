@@ -1,5 +1,5 @@
 import calendar
-from dateutil import parser
+from datetime import datetime, timedelta
 from babel.dates import format_datetime, get_timezone
 
 
@@ -26,10 +26,10 @@ def formato_fecha(fecha_hora=None, formato='medium', tzinfo='Europe/Madrid', loc
 
     Args:
 
-        fecha_hora (): fecha en formato ISO8601. Si no se pasa ninguna se usa la fecha y hora actual
-        formato (): uno de  “full”, “long”, “medium”, o “short”, o un patron datetime personalizado. "medium" por defecto.
-        tzinfo (): la zona horaria a aplicar para dar formato a la fecha-hora. "Europe/Madrid" por defecto.
-        locale (): identificador de locale. es_ES por defecto.
+        fecha_hora (str): fecha en formato ISO8601. Si no se pasa ninguna se usa la fecha y hora actual
+        formato (str): uno de  “full”, “long”, “medium”, o “short”, o un patron datetime personalizado. "medium" por defecto.
+        tzinfo (str): la zona horaria a aplicar para dar formato a la fecha-hora. "Europe/Madrid" por defecto.
+        locale (str): identificador de locale. es_ES por defecto.
 
     Returns:
         str: La fecha en texto con el formato indicado
@@ -37,6 +37,13 @@ def formato_fecha(fecha_hora=None, formato='medium', tzinfo='Europe/Madrid', loc
     date = None
     time_zone = get_timezone(tzinfo)
     if isinstance(fecha_hora, str):
-        date = parser.parse(fecha_hora)
+        date = datetime.fromisoformat(fecha_hora)
 
     return format_datetime(date, formato, time_zone, locale)
+
+
+def aplicar_timedelta(fecha, semanas=0, dias=0, horas=0, minutos=0, segundos=0):
+    fecha_obj = datetime.fromisoformat(fecha)
+    delta = timedelta(days=dias, hours=horas, minutes=minutos, seconds=segundos, weeks=semanas)
+    nueva_fecha = fecha_obj + delta
+    return nueva_fecha.isoformat()
