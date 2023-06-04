@@ -1,5 +1,5 @@
 from jinja2 import Environment, FileSystemLoader, BaseLoader
-from arrendatools.plantillas.filters.fechas import dias_del_año, formato_fecha, aplicar_timedelta
+from arrendatools.plantillas.filters.fechas import dias_del_año, formato_fecha, aplicar_timedelta, trimestre
 from arrendatools.plantillas.filters.numeros import formato_divisa, formato_porcentaje, numero_a_palabras
 
 
@@ -9,7 +9,8 @@ custom_functions = {
     "formato_divisa": formato_divisa,
     "formato_porcentaje": formato_porcentaje,
     "formato_fecha": formato_fecha,
-    "dias_del_año": dias_del_año
+    "dias_del_año": dias_del_año,
+    "trimestre": trimestre
 }
 
 custom_filters = {**custom_functions}

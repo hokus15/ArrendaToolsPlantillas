@@ -62,3 +62,22 @@ def aplicar_timedelta(fecha, semanas=0, dias=0, horas=0, minutos=0, segundos=0):
     delta = timedelta(days=dias, hours=horas, minutes=minutos, seconds=segundos, weeks=semanas)
     nueva_fecha = fecha_obj + delta
     return nueva_fecha.isoformat()
+
+
+def trimestre(fecha, delta=0):
+    """
+    Calcula el trimestre de la fecha indicada. Se le puede pasar un delta positivo o negativo para añadir o eliminar trimestres enteros a la fecha.
+    Lo devuelve en el formato '<trimeste>T <año>'
+
+    Args:
+
+        fecha (str): fecha en formato ISO8601.
+        delta (int): Numero de trimestres a sumar a la fecha. Positivo para sumar, negativo para restar.
+
+    Returns:
+        str: Trimestre de la fecha indicada con el formato '<trimeste>T <año>'.
+    """
+    fecha_trimestre = aplicar_timedelta(fecha, dias=delta * 30 * 3)
+    fecha_obj = datetime.fromisoformat(fecha_trimestre)
+    num_trimestre = (fecha_obj.month - 1) // 3 + 1
+    return str(num_trimestre) + 'T ' + str(fecha_obj.year)
