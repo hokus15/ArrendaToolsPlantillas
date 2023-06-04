@@ -16,14 +16,11 @@ custom_filters = {**custom_functions}
 
 
 def aplicar_plantilla(directorio_plantillas, plantilla, datos):
-    try:
-        environment = Environment(loader=FileSystemLoader(directorio_plantillas))
-        environment.filters.update(custom_filters)
-        environment.globals.update(custom_functions)
-        template = environment.get_template(plantilla)
-        return template.render(datos)
-    except Exception as e:
-        return str(e)
+    environment = Environment(loader=FileSystemLoader(directorio_plantillas))
+    environment.filters.update(custom_filters)
+    environment.globals.update(custom_functions)
+    template = environment.get_template(plantilla)
+    return template.render(datos)
 
 
 def aplicar_plantilla_texto(texto_plantilla, datos):
