@@ -1,5 +1,19 @@
 <!--next-version-placeholder-->
 
+## v0.3.0 (2023-06-04)
+
+### Feature
+
+* Nuevo filtro o funcion para calcular el trimestre de una fecha ([`b80c969`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/b80c969baa791e8593c123aac340e12259480ea6))
+
+### Fix
+
+* Fix style ([`2a55153`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/2a551531ee2b1337f96ad29e0b1302ef94884a8b))
+
+### Documentation
+
+* Documentacion de la funcion aplicar_timedelta ([`1106808`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/1106808a96a29e35c2cbb657056bae944ef7dcd7))
+
 ## v0.2.0 (2023-04-26)
 ### Feature
 * Nueva funcion para aplicar una plantilla a un texto ([`e29df5a`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/e29df5a5c7e4ebe345ec33ccc115d965bbe35c4d))
