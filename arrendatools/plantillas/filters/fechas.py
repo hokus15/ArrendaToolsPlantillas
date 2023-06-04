@@ -43,6 +43,21 @@ def formato_fecha(fecha_hora=None, formato='medium', tzinfo='Europe/Madrid', loc
 
 
 def aplicar_timedelta(fecha, semanas=0, dias=0, horas=0, minutos=0, segundos=0):
+    """
+    Aplica un delta a una fecha proporcionada.
+
+    Args:
+
+        fecha (str): fecha en formato ISO8601.
+        semanas (int): Numero de semanas a aplicar. Positivo para sumar, negativo para restar.
+        dias (int): Numero de días a aplicar. Positivo para sumar, negativo para restar.
+        horas (int): Numero de horas a aplicar. Positivo para sumar, negativo para restar.
+        minutos (int): Numero de minutos a aplicar. Positivo para sumar, negativo para restar.
+        segundos (int): Numero de segundos a aplicar. Positivo para sumar, negativo para restar.
+
+    Returns:
+        str: La fecha con el delta aplicado en formato ISO8601.
+    """
     fecha_obj = datetime.fromisoformat(fecha)
     delta = timedelta(days=dias, hours=horas, minutes=minutos, seconds=segundos, weeks=semanas)
     nueva_fecha = fecha_obj + delta
