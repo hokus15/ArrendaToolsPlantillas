@@ -81,3 +81,25 @@ def trimestre(fecha, delta=0):
     fecha_obj = datetime.fromisoformat(fecha_trimestre)
     num_trimestre = (fecha_obj.month - 1) // 3 + 1
     return str(num_trimestre) + 'T ' + str(fecha_obj.year)
+
+
+def dias_entre(fecha_inicio, fecha_fin):
+    """
+    Calcula los dias transcurridos entre 2 fechas.
+    El cálculo sólo cuenta días enteros, esto significa que si se quiere contar el día final entero hay que sumar 1 día.
+    Por ejemplo:
+        fecha_incio: 2023-12-01
+        fecha_fin: 2023-12-31.
+        Devuelve 30, por lo que para tener en cuenta el día 31/12 hay que usar como fecha fin 2024-01-01.
+
+    Args:
+
+        fecha_inicio (str): fecha inicial en formato ISO8601.
+        fecha_fin (str): fecha final en formato ISO8601.
+
+    Returns:
+        int: Número de días enteros que han transcurrido entre las 2 fechas.
+    """
+    fecha_inicio_obj = datetime.fromisoformat(fecha_inicio)
+    fecha_fin_obj = datetime.fromisoformat(fecha_fin)
+    return (fecha_fin_obj - fecha_inicio_obj).days
