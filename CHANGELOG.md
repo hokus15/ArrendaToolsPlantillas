@@ -1,5 +1,16 @@
 <!--next-version-placeholder-->
 
+## v0.4.0 (2023-06-14)
+
+### Feature
+
+* Nuevo filtro para calcular los dias entre 2 fechas ([`d259c4c`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/d259c4cc3933a59acaabb4fa59336d342bceb332))
+
+### Fix
+
+* Yet another fix for main action ([`62762ca`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/62762ca75856bdbb2c239e6af41baa5e670d0f95))
+* Fix main action ([`4ccf6a7`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/4ccf6a72efc2b3ca33bb569de70306683cf3cc82))
+
 ## v0.3.0 (2023-06-04)
 
 ### Feature
