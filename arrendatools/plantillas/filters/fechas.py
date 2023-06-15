@@ -102,7 +102,5 @@ def dias_entre(fecha_inicio, fecha_fin):
         int: Número de días enteros que han transcurrido entre las 2 fechas.
     """
     fecha_inicio_obj = datetime.fromisoformat(fecha_inicio).astimezone(tz=None).date()
-    print(fecha_inicio_obj)
     fecha_fin_obj = datetime.fromisoformat(fecha_fin).astimezone(tz=None).date()
-    print(fecha_fin_obj)
     return (fecha_fin_obj - fecha_inicio_obj).days
