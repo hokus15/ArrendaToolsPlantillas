@@ -86,7 +86,8 @@ def trimestre(fecha, delta=0):
 def dias_entre(fecha_inicio, fecha_fin):
     """
     Calcula los dias transcurridos entre 2 fechas.
-    El cálculo sólo cuenta días enteros, esto significa que si se quiere contar el día final entero hay que sumar 1 día.
+    Sólo cuenta días enteros, esto significa que si se quiere contar el día final hay que sumar 1 día a la fecha final.
+    Si las fechas contienen la hora (con zona horaria) se elimina y se tiene en cuenta únicamente la fecha.
     Por ejemplo:
         fecha_incio: 2023-12-01
         fecha_fin: 2023-12-31.
@@ -100,6 +101,8 @@ def dias_entre(fecha_inicio, fecha_fin):
     Returns:
         int: Número de días enteros que han transcurrido entre las 2 fechas.
     """
-    fecha_inicio_obj = datetime.fromisoformat(fecha_inicio)
-    fecha_fin_obj = datetime.fromisoformat(fecha_fin)
+    fecha_inicio_obj = datetime.fromisoformat(fecha_inicio).astimezone(tz=None).date()
+    print(fecha_inicio_obj)
+    fecha_fin_obj = datetime.fromisoformat(fecha_fin).astimezone(tz=None).date()
+    print(fecha_fin_obj)
     return (fecha_fin_obj - fecha_inicio_obj).days

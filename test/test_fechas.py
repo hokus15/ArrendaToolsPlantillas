@@ -32,6 +32,8 @@ class TestFunciones(unittest.TestCase):
         self.assertEqual(dias_entre('2023-01-01', '2024-01-01'), 365)
         self.assertEqual(dias_entre('2023-06-01', '2024-01-01'), 214)
         self.assertEqual(dias_entre('2024-01-01', '2025-01-01'), 366)
+        self.assertEqual(dias_entre('2022-06-01T22:00:00.000Z', '2022-12-31T23:00:00.000Z'), 213)
+        self.assertEqual(dias_entre('2022-06-01T22:00:00.000Z', '2023-01-01'), 213)
 
 
 if __name__ == '__main__':
