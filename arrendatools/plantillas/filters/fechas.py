@@ -1,4 +1,5 @@
 import calendar
+import pytz
 from datetime import datetime, timedelta, timezone
 from babel.dates import format_datetime, get_timezone
 
@@ -83,7 +84,7 @@ def trimestre(fecha, delta=0):
     return str(num_trimestre) + 'T ' + str(fecha_obj.year)
 
 
-def dias_entre(fecha_inicio, fecha_fin, formato_inicio='%Y-%m-%dT%H:%M:%S.%fZ', formato_fin='%Y-%m-%dT%H:%M:%S.%fZ'):
+def dias_entre(fecha_inicio, fecha_fin, formato_inicio='%Y-%m-%dT%H:%M:%S.%fZ', formato_fin='%Y-%m-%dT%H:%M:%S.%fZ', tzinfo_inicio='Europe/Madrid', tzinfo_fin='Europe/Madrid'):
     """
     Calcula los dias enteros transcurridos entre 2 fechas.
     Sólo cuenta días enteros, esto significa que si se quiere contar el día final hay que sumar 1 día a la fecha final.
@@ -99,10 +100,15 @@ def dias_entre(fecha_inicio, fecha_fin, formato_inicio='%Y-%m-%dT%H:%M:%S.%fZ', 
         fecha_fin (str): fecha final.
         formato_inicio (str) Formato para parsear la fecha inicio. Por defecto: '%Y-%m-%dT%H:%M:%S.%fZ'
         formato_fin (str) Formato para parsear la fecha fin. Por defecto: '%Y-%m-%dT%H:%M:%S.%fZ'
+        tzinfo_inicio (str) Zona horaria del string pasado para la fecha inicial. Por defecto: Europe/Madrid
+        tzinfo_fin (str) Zona horaria del string pasado para la fecha inicial. Por defecto: Europe/Madrid
 
     Returns:
         int: Número de días enteros que han transcurrido entre las 2 fechas.
     """
-    fecha_inicio_obj = datetime.strptime(fecha_inicio, formato_inicio).astimezone(tz=timezone.utc).date()
-    fecha_fin_obj = datetime.strptime(fecha_fin, formato_fin).astimezone(tz=timezone.utc).date()
-    return (fecha_fin_obj - fecha_inicio_obj).days
+    zona_inicio = pytz.timezone(tzinfo_inicio)
+    zona_fin = pytz.timezone(tzinfo_fin)
+    fecha_inicio_obj = zona_inicio.localize(datetime.strptime(fecha_inicio, formato_inicio))
+    fecha_fin_obj = zona_fin.localize(datetime.strptime(fecha_fin, formato_fin))
+    diferencia = fecha_fin_obj - fecha_inicio_obj
+    return diferencia.days
