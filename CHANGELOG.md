@@ -1,5 +1,14 @@
 <!--next-version-placeholder-->
 
+## v0.4.1 (2023-06-20)
+
+### Fix
+
+* Eliminado import no usado ([`156d4e6`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/156d4e61c22e9a60b944124c894ff3da2643c622))
+* Incluida zona horaria para parsear la fecha en el filtro dias_entre ([`b34afb3`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/b34afb3b9cd2191b1ecbad464045a3a75ed232fe))
+* Corregido error de parseo de fechas ([`b211cc4`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/b211cc48793e80147c2d121a83bd6ef053c48963))
+* Corregido error en dias_entre por el cual si metias una fecha con hora y otra sin, fallaba la ejecucion ([`b97d340`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/b97d340eb378dd8d4b5f45a96b8699a29d4cad87))
+
 ## v0.4.0 (2023-06-14)
 
 ### Feature
