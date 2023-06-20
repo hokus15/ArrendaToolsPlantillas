@@ -1,6 +1,6 @@
 import calendar
 import pytz
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from babel.dates import format_datetime, get_timezone
 
 
