@@ -4,7 +4,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/hokus15/ArrendaToolsPlantillas?logo=github)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/hokus15/ArrendaToolsPlantillas?logo=github)
 
-Módulo de Python que aplica plantillas jinja. Además inlcuye filtros que pueden ser útiles a los arrendadores para la generación de recibos de alquiler, facturas, generar informes,....
+Módulo de Python que aplica plantillas jinja. Además inlcuye filtros que pueden ser útiles a los arrendadores para la generación de recibos de alquiler, facturas, generar informes,...
 
 ## Requisitos
 
