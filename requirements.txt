@@ -4,4 +4,4 @@ num2words==0.5.13
 
 babel==2.14.0
 
-pytz==2023.3.post1
+pytz==2023.4
