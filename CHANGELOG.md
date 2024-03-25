@@ -2,6 +2,280 @@
 
 
 
+## v0.4.3 (2024-03-25)
+
+### Build
+
+* build(deps): bump python-semantic-release/python-semantic-release
+
+Bumps [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release) from 9.3.0 to 9.3.1.
+- [Release notes](https://github.com/python-semantic-release/python-semantic-release/releases)
+- [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v9.3.0...v9.3.1)
+
+---
+updated-dependencies:
+- dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`c8d7c60`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/c8d7c6024918fc9aed41f99119d834d82f52da63))
+
+* build(deps): bump python-semantic-release/python-semantic-release
+
+Bumps [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release) from 9.2.2 to 9.3.0.
+- [Release notes](https://github.com/python-semantic-release/python-semantic-release/releases)
+- [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v9.2.2...v9.3.0)
+
+---
+updated-dependencies:
+- dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`42d41c5`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/42d41c5d5868364bdb6449258dc66acf611b4a11))
+
+* build(deps): bump python-semantic-release/python-semantic-release
+
+Bumps [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release) from 9.1.1 to 9.2.2.
+- [Release notes](https://github.com/python-semantic-release/python-semantic-release/releases)
+- [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v9.1.1...v9.2.2)
+
+---
+updated-dependencies:
+- dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`9928012`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/99280121e488bdb12332c0db6e1596d4da7fe8e4))
+
+* build(deps): bump python-semantic-release/python-semantic-release
+
+Bumps [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release) from 9.1.0 to 9.1.1.
+- [Release notes](https://github.com/python-semantic-release/python-semantic-release/releases)
+- [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v9.1.0...v9.1.1)
+
+---
+updated-dependencies:
+- dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`9324c01`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/9324c01c49e955d939ba45dfdcdc0339967fd39d))
+
+* build(deps): bump python-semantic-release/python-semantic-release
+
+Bumps [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release) from 9.0.3 to 9.1.0.
+- [Release notes](https://github.com/python-semantic-release/python-semantic-release/releases)
+- [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v9.0.3...v9.1.0)
+
+---
+updated-dependencies:
+- dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`298dbc9`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/298dbc9e97d1d99f734649b760fdf25fb2f12f09))
+
+* build(deps): bump python-semantic-release/python-semantic-release
+
+Bumps [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release) from 8.7.2 to 9.0.3.
+- [Release notes](https://github.com/python-semantic-release/python-semantic-release/releases)
+- [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v8.7.2...v9.0.3)
+
+---
+updated-dependencies:
+- dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`a3cf08b`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/a3cf08bb5ddf44c6fdca4bcb6b9a74721e2e02b0))
+
+* build(deps): bump pytz from 2023.3.post1 to 2024.1
+
+Bumps [pytz](https://github.com/stub42/pytz) from 2023.3.post1 to 2024.1.
+- [Release notes](https://github.com/stub42/pytz/releases)
+- [Commits](https://github.com/stub42/pytz/compare/release_2023.3.post1...release_2024.1)
+
+---
+updated-dependencies:
+- dependency-name: pytz
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`44a3c1b`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/44a3c1b3032eec11954b4235c7c447e455dad895))
+
+* build(deps): bump jinja2 from 3.1.2 to 3.1.3
+
+Bumps [jinja2](https://github.com/pallets/jinja) from 3.1.2 to 3.1.3.
+- [Release notes](https://github.com/pallets/jinja/releases)
+- [Changelog](https://github.com/pallets/jinja/blob/main/CHANGES.rst)
+- [Commits](https://github.com/pallets/jinja/compare/3.1.2...3.1.3)
+
+---
+updated-dependencies:
+- dependency-name: jinja2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`b40956c`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/b40956c3fa016a8ea634e991d6d02163d444fc93))
+
+* build(deps): bump python-semantic-release/python-semantic-release
+
+Bumps [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release) from 8.5.2 to 8.7.2.
+- [Release notes](https://github.com/python-semantic-release/python-semantic-release/releases)
+- [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v8.5.2...v8.7.2)
+
+---
+updated-dependencies:
+- dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`293192d`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/293192d516f24e1937f3d27f73c61b22ed2bedea))
+
+* build(deps): bump python-semantic-release/python-semantic-release
+
+Bumps [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release) from 8.5.1 to 8.5.2.
+- [Release notes](https://github.com/python-semantic-release/python-semantic-release/releases)
+- [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v8.5.1...v8.5.2)
+
+---
+updated-dependencies:
+- dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`f4a2278`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/f4a22781b84b8517d266a8f50f2f445512eb4a1e))
+
+* build(deps): bump python-semantic-release/python-semantic-release
+
+Bumps [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release) from 8.5.0 to 8.5.1.
+- [Release notes](https://github.com/python-semantic-release/python-semantic-release/releases)
+- [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v8.5.0...v8.5.1)
+
+---
+updated-dependencies:
+- dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`04aa294`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/04aa2943ee1e9d0f071a383c51ba663f8ce1ca2e))
+
+* build(deps): bump babel from 2.13.1 to 2.14.0
+
+Bumps [babel](https://github.com/python-babel/babel) from 2.13.1 to 2.14.0.
+- [Release notes](https://github.com/python-babel/babel/releases)
+- [Changelog](https://github.com/python-babel/babel/blob/master/CHANGES.rst)
+- [Commits](https://github.com/python-babel/babel/compare/v2.13.1...v2.14.0)
+
+---
+updated-dependencies:
+- dependency-name: babel
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`c591b36`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/c591b36193c67059c979b77b2333e91d91e5f1e5))
+
+* build(test): avoid executing tests twice ([`a33c0cc`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/a33c0ccdf198984567e1888399af6b4df430e1cf))
+
+### Fix
+
+* fix(plantilla): set autoscape to True to mitigate XSS vulnerabilities ([`75878a8`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/75878a8a5a2e505f8aaa7b86e2b764a42034d940))
+
+### Style
+
+* style(long-lines): splitted long lines for readability ([`4582dcc`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/4582dccb3967c3168cec377897396f10f831d9b9))
+
+### Test
+
+* test(python-version): add testing for python 3.12 ([`ea2c6a4`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/ea2c6a4e11a1bcd400050673364ed442f5a720d2))
+
+### Unknown
+
+* Merge pull request #35 from hokus15/devel
+
+Devel ([`4d67b03`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/4d67b03778f2bccaa03af1b6b0b72124443ffce4))
+
+* Merge pull request #34 from hokus15/dependabot/github_actions/python-semantic-release/python-semantic-release-9.3.1
+
+build(deps): bump python-semantic-release/python-semantic-release from 9.3.0 to 9.3.1 ([`bb6cf29`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/bb6cf292c308e35276b24116969f27d03033d19c))
+
+* Merge pull request #33 from hokus15/dependabot/github_actions/python-semantic-release/python-semantic-release-9.3.0
+
+build(deps): bump python-semantic-release/python-semantic-release from 9.2.2 to 9.3.0 ([`a586f21`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/a586f217f5a605f3f05a47e130a6ed895e2b6ef6))
+
+* Merge pull request #32 from hokus15/dependabot/github_actions/python-semantic-release/python-semantic-release-9.2.2
+
+build(deps): bump python-semantic-release/python-semantic-release from 9.1.1 to 9.2.2 ([`cc24d78`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/cc24d78ceb13b55df720db960f94e37bd7ff6a58))
+
+* Merge pull request #31 from hokus15/dependabot/github_actions/python-semantic-release/python-semantic-release-9.1.1
+
+build(deps): bump python-semantic-release/python-semantic-release from 9.1.0 to 9.1.1 ([`5e99aad`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/5e99aad11bec0cb7af869dc29724539ffdd61beb))
+
+* Merge pull request #30 from hokus15/devel
+
+test(python-version): add testing for python 3.12 ([`6d4a567`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/6d4a56775759b1122d75e0cc836098b943233852))
+
+* Merge pull request #29 from hokus15/dependabot/github_actions/python-semantic-release/python-semantic-release-9.1.0
+
+build(deps): bump python-semantic-release/python-semantic-release from 9.0.3 to 9.1.0 ([`2c72543`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/2c72543ef213188369d76430553152848543c69f))
+
+* Merge pull request #28 from hokus15/dependabot/github_actions/python-semantic-release/python-semantic-release-9.0.3
+
+build(deps): bump python-semantic-release/python-semantic-release from 8.7.2 to 9.0.3 ([`f54d2ed`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/f54d2ed406cd683d3d452223dd3bcfe507797f30))
+
+* Merge pull request #26 from hokus15/dependabot/pip/pytz-2024.1
+
+build(deps): bump pytz from 2023.3.post1 to 2024.1 ([`d5b3233`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/d5b3233ecd4a4ee277a838e5a878f5e8cc5a5896))
+
+* Merge pull request #24 from hokus15/dependabot/pip/jinja2-3.1.3
+
+build(deps): bump jinja2 from 3.1.2 to 3.1.3 ([`f7bb9fb`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/f7bb9fb98e54e593b860f4bc16b9914dd90b5a12))
+
+* Merge pull request #23 from hokus15/dependabot/github_actions/python-semantic-release/python-semantic-release-8.7.2
+
+build(deps): bump python-semantic-release/python-semantic-release from 8.5.2 to 8.7.2 ([`2c0099d`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/2c0099d463c252067ec455ef82c6f8f328cc3780))
+
+* Merge pull request #21 from hokus15/dependabot/github_actions/python-semantic-release/python-semantic-release-8.5.2
+
+build(deps): bump python-semantic-release/python-semantic-release from 8.5.1 to 8.5.2 ([`1c4d17e`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/1c4d17efff749f25dfbeacb5d76b2e7fbae0388a))
+
+* Merge pull request #20 from hokus15/dependabot/github_actions/python-semantic-release/python-semantic-release-8.5.1
+
+build(deps): bump python-semantic-release/python-semantic-release from 8.5.0 to 8.5.1 ([`dd75989`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/dd759896f07c76e5488996721d214895a11831b3))
+
+* Merge pull request #19 from hokus15/dependabot/pip/babel-2.14.0
+
+build(deps): bump babel from 2.13.1 to 2.14.0 ([`d1d2b61`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/d1d2b6162a79b328df3120ecaa1742e968a90d3e))
+
+* Merge pull request #18 from hokus15/devel
+
+Devel ([`2c4850c`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/2c4850cccf00501ad7278df54ac3a13a12a2c581))
+
+* Merge remote-tracking branch &#39;origin/master&#39; into devel ([`98fa620`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/98fa620828d7100986f33cf91c76f07855e6249d))
+
+
 ## v0.4.2 (2023-12-08)
 
 ### Build
