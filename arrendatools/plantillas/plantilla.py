@@ -18,7 +18,7 @@ custom_filters = {**custom_functions}
 
 
 def aplicar_plantilla(directorio_plantillas, plantilla, datos):
-    environment = Environment(loader=FileSystemLoader(directorio_plantillas))
+    environment = Environment(loader=FileSystemLoader(directorio_plantillas), autoescape=True)
     environment.filters.update(custom_filters)
     environment.globals.update(custom_functions)
     template = environment.get_template(plantilla)
@@ -27,7 +27,7 @@ def aplicar_plantilla(directorio_plantillas, plantilla, datos):
 
 def aplicar_plantilla_texto(texto_plantilla, datos):
     try:
-        environment = Environment(loader=BaseLoader)
+        environment = Environment(loader=BaseLoader, autoescape=True)
         environment.filters.update(custom_filters)
         environment.globals.update(custom_functions)
         template = environment.from_string(texto_plantilla)

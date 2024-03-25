@@ -4,7 +4,13 @@ from babel.numbers import format_currency, format_percent
 from num2words import num2words
 
 
-def formato_divisa(cantidad, simbolo='€', formato=None, locale='es_ES', digitos_divisa=True, tipo_formato='standard', redondeo_decimal=True, separador_miles=True):
+def formato_divisa(cantidad, simbolo='€',
+                   formato=None,
+                   locale='es_ES',
+                   digitos_divisa=True,
+                   tipo_formato='standard',
+                   redondeo_decimal=True,
+                   separador_miles=True):
     """
     Convierte una cantidad en string con formato de divisa usando el simbolo y el locale pasados por parametro.
 
