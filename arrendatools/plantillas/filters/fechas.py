@@ -84,7 +84,11 @@ def trimestre(fecha, delta=0):
     return str(num_trimestre) + 'T ' + str(fecha_obj.year)
 
 
-def dias_entre(fecha_inicio, fecha_fin, formato_inicio='%Y-%m-%dT%H:%M:%S.%fZ', formato_fin='%Y-%m-%dT%H:%M:%S.%fZ', tzinfo_inicio='Europe/Madrid', tzinfo_fin='Europe/Madrid'):
+def dias_entre(fecha_inicio, fecha_fin,
+               formato_inicio='%Y-%m-%dT%H:%M:%S.%fZ',
+               formato_fin='%Y-%m-%dT%H:%M:%S.%fZ',
+               tzinfo_inicio='Europe/Madrid',
+               tzinfo_fin='Europe/Madrid'):
     """
     Calcula los dias enteros transcurridos entre 2 fechas.
     Sólo cuenta días enteros, esto significa que si se quiere contar el día final hay que sumar 1 día a la fecha final.
