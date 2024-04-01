@@ -2,6 +2,41 @@
 
 
 
+## v0.4.4 (2024-04-01)
+
+### Build
+
+* build(deps): bump python-semantic-release/python-semantic-release
+
+Bumps [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release) from 9.3.1 to 9.4.0.
+- [Release notes](https://github.com/python-semantic-release/python-semantic-release/releases)
+- [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v9.3.1...v9.4.0)
+
+---
+updated-dependencies:
+- dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7e11916`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/7e119164e6752d115793f9c2a96607d025a87406))
+
+### Fix
+
+* fix(autoescape): undo XSS mitigation ([`11c1add`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/11c1addb51271880d341dedc9402dda899d1ab79))
+
+### Unknown
+
+* Merge pull request #37 from hokus15/devel
+
+fix(autoescape): undo XSS mitigation ([`7b17b04`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/7b17b043768ebbdba18e2325de13d39f752c14a9))
+
+* Merge pull request #36 from hokus15/dependabot/github_actions/python-semantic-release/python-semantic-release-9.4.0
+
+build(deps): bump python-semantic-release/python-semantic-release from 9.3.1 to 9.4.0 ([`359c846`](https://github.com/hokus15/ArrendaToolsPlantillas/commit/359c846173a165f1a9667e901622a2fc14899556))
+
+
 ## v0.4.3 (2024-03-25)
 
 ### Build
