@@ -4,4 +4,4 @@ num2words==0.5.13
 
 babel==2.16.0
 
-pytz==2024.1
+pytz==2024.2
